@@ -1,16 +1,44 @@
-# task1
+*BoozinFitness App*
 
-A new Flutter project.
+1. About the Project
+This was a task where I had to create a basic Flutter application from scratch.
+The app has a splash screen with a short animation, and after that, it moves to the home screen where the main content is displayed.
+It’s a simple project but made in a way that it can be easily extended with more features later.
 
-## Getting Started
+2. What the App Does
+- Shows a splash screen first
+- Then navigates to the home screen
+- UI is responsive and works on different screen sizes
+- Code is organized for easy updates in the future
 
-This project is a starting point for a Flutter application.
+3. Tech Stack Used
+- Flutter
+- Dart
+- Android Studio for development
+- Git for version control
 
-A few resources to get you started if this is your first Flutter project:
+4. How to Run
+- Install Flutter on your system and set up the environment
+  
+- Clone this repository:
+  git clone https://github.com/shikhsshikha/BoozinFitness.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Open the folder in Android Studio (or any preferred IDE)
+  
+- Run the following command to get all dependencies:
+  flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Connect your emulator or device and run:
+  flutter run
+
+5. How It Works:
+- Splash Screen: Shows a quick animation before the main screen
+- Navigation: After splash, moves to the home screen using Flutter’s Navigator
+- Home Screen: Displays the core UI for now (placeholder for future features)
+
+6. Project Structure:
+   lib/
+ ├── main.dart          // App entry point
+ ├── splash_screen.dart // Splash screen UI & logic
+ ├── home_screen.dart   // Home screen UI
+
