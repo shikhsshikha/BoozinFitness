@@ -6,7 +6,7 @@ This was a task where I had to create a basic Flutter application from scratch.
 The app has a splash screen with a short animation, and after that, it moves to the home screen where the main content is displayed.
 It’s a simple project but made in a way that it can be easily extended with more features later.
 
-3. What the App Does
+2. What the App Does
 - Shows a splash screen first
 - Then navigates to the home screen
 - UI is responsive and works on different screen sizes
